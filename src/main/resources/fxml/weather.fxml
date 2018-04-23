@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+<?import pl.edu.mimuw.weather.control.IconControl?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Text?>
+<?import pl.edu.mimuw.weather.control.SpinningFontIcon?>
+<?import pl.edu.mimuw.weather.control.Pollution10Control?>
+<?import pl.edu.mimuw.weather.control.TemperatureControl?>
+<?import pl.edu.mimuw.weather.control.HumidityValueControl?>
+<?import pl.edu.mimuw.weather.control.PressureValueControl?>
+<?import pl.edu.mimuw.weather.control.CloudValueControl?>
+<?import pl.edu.mimuw.weather.control.Pollution2_5Control?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.Separator?>
+<?import pl.edu.mimuw.weather.control.WindSpeedControl?>
+<?import pl.edu.mimuw.weather.control.WindDirectionIconControl?>
+<?import pl.edu.mimuw.weather.control.TimestampControl?>
+<StackPane prefHeight="385" prefWidth="250.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.edu.mimuw.weather.controller.AppController"
+           id="main" stylesheets="@../css/weather.css" styleClass="body1" style="-fx-background-color: TRANSPARENT">
+   <BorderPane>
+      <center>
+            <VBox prefHeight="250.0" prefWidth="250.0"  style="-fx-background-color: rgb(35, 35, 35, 0.05)" alignment="TOP_CENTER">
+               <children>
+                  <Label/>
+                  <Text text="Warsaw, Poland" styleClass="title-value" textAlignment="CENTER" style="-fx-background-color: rgb(35, 35, 35)"/>
+                  <GridPane prefHeight="100.0" prefWidth="250.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <IconControl styleClass="myStyle" fx:id="iconControlAtb" GridPane.columnIndex="0"
+                                     source="$controller.fullDescriptionStream"/>
+                        <TemperatureControl nodeOrientation="LEFT_TO_RIGHT" fx:id="temperatureControlAtb"
+                                            source="$controller.temperatureStream"
+                                            GridPane.columnIndex="1"/>
+                     </children>
+                  </GridPane>
+                  <Label fx:id="time" textFill="rgb(255, 188, 20)">
+                     <font>
+                        <!--Zegar nie był wymagany
+                         więc pozwoliłem sobie zwinąć go ze stack overflow
+                         https://stackoverflow.com/questions/42383857/javafx-live-time-and-date-->
+                        <Font size="27.0" style="-fx-font-style: bold" />
+                     </font>
+                  </Label>
+                  <Label/>
+
+                  <PressureValueControl fx:id="pressureControlAtb"
+                                        source="$controller.pressureStream"/>
+
+                  <HumidityValueControl fx:id="humidityControlAtb"
+                                        source="$controller.humidityStream"/>
+
+                  <CloudValueControl fx:id="cloudControlAtb"
+                                     source="$controller.cloudStream"/>
+                  <HBox alignment="BASELINE_CENTER" spacing="20" prefHeight="20">
+                     <children>
+                        <WindSpeedControl fx:id="windSpeedControlAtb"
+                                          source="$controller.windSpeedStream"/>
+                        <WindDirectionIconControl fx:id="windDegreeControlAtb"
+                                                  source="$controller.windDegreeStream"/>
+                     </children>
+                  </HBox>
+                  <Pollution10Control fx:id="pM10ControlAtb"
+                                      source="$controller.pm10Stream"/>
+                  <Pollution2_5Control fx:id="pM25ControlAtb"
+                                       source="$controller.pm25Stream"/>
+                  <Label/>
+                  <TimestampControl prefHeight="10" fx:id="timestampControlAtb"
+                                    source="$controller.fullDescriptionStream"/>
+               </children></VBox>
+      </center>
+      <bottom>
+         <HBox id="statusContainer" style="-fx-background-color: rgb(255, 188, 20)">
+            <JFXButton fx:id="settingsButton">
+               <graphic>
+                  <FontIcon iconLiteral="fa-wrench" />
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="refreshButton">
+               <graphic>
+                  <FontIcon iconLiteral="fa-refresh" />
+               </graphic>
+            </JFXButton>
+            <Region HBox.hgrow="ALWAYS" />
+            <FontIcon fx:id="errorIcon" iconLiteral="fa-exclamation-triangle" />
+            <SpinningFontIcon fx:id="workingIcon" iconLiteral="fa-cog" />
+         </HBox>
+      </bottom>
+
+   </BorderPane>
+</StackPane>

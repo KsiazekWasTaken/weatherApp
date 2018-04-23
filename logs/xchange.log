@@ -1,0 +1,134 @@
+[ERROR] 04-23-2018 21:37:17 pl.edu.mimuw.weather.network.DataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 04-23-2018 21:37:17 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clouds', descr='overcast clouds', temp=15.85, pressure=1011.92, humidity=76.0, clouds=92.0, wind=Wind{degree=268.0, speed=5.48}}
+[INFO ] 04-23-2018 21:37:37 pl.edu.mimuw.weather.AppMain onSettingsRequested - onSettingsRequested
+[ERROR] 04-23-2018 21:37:43 pl.edu.mimuw.weather.network.DataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 04-23-2018 21:37:43 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='shortdesc', descr='', temp=14.4, pressure=998.0, humidity=95.6, clouds=-1.0, wind=Wind{degree=315.0, speed=2.5}}
+[INFO ] 04-23-2018 21:37:51 pl.edu.mimuw.weather.AppMain onSettingsRequested - onSettingsRequested
+[ERROR] 04-23-2018 21:37:56 pl.edu.mimuw.weather.network.DataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 04-23-2018 21:37:56 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clouds', descr='overcast clouds', temp=15.85, pressure=1011.92, humidity=76.0, clouds=92.0, wind=Wind{degree=268.0, speed=5.48}}
+[INFO ] 04-23-2018 21:38:03 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 04-23-2018 21:38:04 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...
+[INFO ] 04-23-2018 21:41:08 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clouds', descr='overcast clouds', temp=15.85, pressure=1011.92, humidity=76.0, clouds=92.0, wind=Wind{degree=268.0, speed=5.48}}
+[ERROR] 04-23-2018 21:41:08 pl.edu.mimuw.weather.network.DataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[ERROR] 04-23-2018 21:41:08 pl.edu.mimuw.weather.AppMain lambda$setupExceptionHandler$0 - Uncaught exception in thread 'JavaFX Application Thread'
+rx.exceptions.OnErrorNotImplementedException: Cannot format given Object as a Number
+	at rx.internal.util.InternalObservableUtils$ErrorNotImplementedAction.call(InternalObservableUtils.java:386)
+	at rx.internal.util.InternalObservableUtils$ErrorNotImplementedAction.call(InternalObservableUtils.java:383)
+	at rx.internal.util.ActionSubscriber.onError(ActionSubscriber.java:44)
+	at rx.observers.SafeSubscriber._onError(SafeSubscriber.java:153)
+	at rx.observers.SafeSubscriber.onError(SafeSubscriber.java:115)
+	at rx.exceptions.Exceptions.throwOrReport(Exceptions.java:216)
+	at rx.observers.SafeSubscriber.onNext(SafeSubscriber.java:139)
+	at rx.internal.operators.OnSubscribeMap$MapSubscriber.onNext(OnSubscribeMap.java:77)
+	at rx.internal.operators.OperatorCast$CastSubscriber.onNext(OperatorCast.java:69)
+	at rx.internal.operators.OnSubscribeFilter$FilterSubscriber.onNext(OnSubscribeFilter.java:76)
+	at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber.call(OperatorObserveOn.java:224)
+	at rx.schedulers.JavaFxScheduler$InnerJavaFxScheduler.lambda$schedule$1(JavaFxScheduler.java:155)
+	at rx.schedulers.JavaFxScheduler$InnerJavaFxScheduler.run(JavaFxScheduler.java:203)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Cannot format given Object as a Number
+	at java.text.DecimalFormat.format(DecimalFormat.java:507)
+	at java.text.Format.format(Format.java:157)
+	at pl.edu.mimuw.weather.control.TemperatureControl.lambda$setSource$0(TemperatureControl.java:26)
+	at rx.internal.util.ActionSubscriber.onNext(ActionSubscriber.java:39)
+	at rx.observers.SafeSubscriber.onNext(SafeSubscriber.java:134)
+	... 13 more
+[INFO ] 04-23-2018 21:41:12 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 04-23-2018 21:41:13 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...
+[ERROR] 04-23-2018 21:41:20 pl.edu.mimuw.weather.network.DataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 04-23-2018 21:41:20 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clouds', descr='overcast clouds', temp=15.85, pressure=1011.92, humidity=76.0, clouds=92.0, wind=Wind{degree=268.0, speed=5.48}}
+[ERROR] 04-23-2018 21:41:20 pl.edu.mimuw.weather.AppMain lambda$setupExceptionHandler$0 - Uncaught exception in thread 'JavaFX Application Thread'
+rx.exceptions.OnErrorNotImplementedException: Cannot format given Object as a Number
+	at rx.internal.util.InternalObservableUtils$ErrorNotImplementedAction.call(InternalObservableUtils.java:386)
+	at rx.internal.util.InternalObservableUtils$ErrorNotImplementedAction.call(InternalObservableUtils.java:383)
+	at rx.internal.util.ActionSubscriber.onError(ActionSubscriber.java:44)
+	at rx.observers.SafeSubscriber._onError(SafeSubscriber.java:153)
+	at rx.observers.SafeSubscriber.onError(SafeSubscriber.java:115)
+	at rx.exceptions.Exceptions.throwOrReport(Exceptions.java:216)
+	at rx.observers.SafeSubscriber.onNext(SafeSubscriber.java:139)
+	at rx.internal.operators.OnSubscribeMap$MapSubscriber.onNext(OnSubscribeMap.java:77)
+	at rx.internal.operators.OperatorCast$CastSubscriber.onNext(OperatorCast.java:69)
+	at rx.internal.operators.OnSubscribeFilter$FilterSubscriber.onNext(OnSubscribeFilter.java:76)
+	at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber.call(OperatorObserveOn.java:224)
+	at rx.schedulers.JavaFxScheduler$InnerJavaFxScheduler.lambda$schedule$1(JavaFxScheduler.java:155)
+	at rx.schedulers.JavaFxScheduler$InnerJavaFxScheduler.run(JavaFxScheduler.java:203)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Cannot format given Object as a Number
+	at java.text.DecimalFormat.format(DecimalFormat.java:507)
+	at java.text.Format.format(Format.java:157)
+	at pl.edu.mimuw.weather.control.TemperatureControl.lambda$setSource$0(TemperatureControl.java:26)
+	at rx.internal.util.ActionSubscriber.onNext(ActionSubscriber.java:39)
+	at rx.observers.SafeSubscriber.onNext(SafeSubscriber.java:134)
+	... 13 more
+[INFO ] 04-23-2018 21:41:25 pl.edu.mimuw.weather.AppMain onSettingsRequested - onSettingsRequested
+[ERROR] 04-23-2018 21:41:30 pl.edu.mimuw.weather.network.DataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 04-23-2018 21:41:30 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='shortdesc', descr='', temp=14.4, pressure=998.0, humidity=95.5, clouds=-1.0, wind=Wind{degree=315.0, speed=3.2}}
+[INFO ] 04-23-2018 21:41:34 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 04-23-2018 21:41:35 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...
+[INFO ] 04-23-2018 21:42:16 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clouds', descr='overcast clouds', temp=15.85, pressure=1011.92, humidity=76.0, clouds=92.0, wind=Wind{degree=268.0, speed=5.48}}
+[ERROR] 04-23-2018 21:42:17 pl.edu.mimuw.weather.AppMain lambda$setupExceptionHandler$0 - Uncaught exception in thread 'JavaFX Application Thread'
+rx.exceptions.OnErrorNotImplementedException: f != java.lang.String
+	at rx.internal.util.InternalObservableUtils$ErrorNotImplementedAction.call(InternalObservableUtils.java:386)
+	at rx.internal.util.InternalObservableUtils$ErrorNotImplementedAction.call(InternalObservableUtils.java:383)
+	at rx.internal.util.ActionSubscriber.onError(ActionSubscriber.java:44)
+	at rx.observers.SafeSubscriber._onError(SafeSubscriber.java:153)
+	at rx.observers.SafeSubscriber.onError(SafeSubscriber.java:115)
+	at rx.exceptions.Exceptions.throwOrReport(Exceptions.java:216)
+	at rx.observers.SafeSubscriber.onNext(SafeSubscriber.java:139)
+	at rx.internal.operators.OnSubscribeMap$MapSubscriber.onNext(OnSubscribeMap.java:77)
+	at rx.internal.operators.OperatorCast$CastSubscriber.onNext(OperatorCast.java:69)
+	at rx.internal.operators.OnSubscribeFilter$FilterSubscriber.onNext(OnSubscribeFilter.java:76)
+	at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber.call(OperatorObserveOn.java:224)
+	at rx.schedulers.JavaFxScheduler$InnerJavaFxScheduler.lambda$schedule$1(JavaFxScheduler.java:155)
+	at rx.schedulers.JavaFxScheduler$InnerJavaFxScheduler.run(JavaFxScheduler.java:203)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.util.IllegalFormatConversionException: f != java.lang.String
+	at java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4302)
+	at java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2806)
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:2753)
+	at java.util.Formatter.format(Formatter.java:2520)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at pl.edu.mimuw.weather.control.TemperatureControl.lambda$setSource$0(TemperatureControl.java:26)
+	at rx.internal.util.ActionSubscriber.onNext(ActionSubscriber.java:39)
+	at rx.observers.SafeSubscriber.onNext(SafeSubscriber.java:134)
+	... 13 more
+[ERROR] 04-23-2018 21:42:18 pl.edu.mimuw.weather.network.DataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 04-23-2018 21:42:19 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 04-23-2018 21:42:20 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...
+[ERROR] 04-23-2018 21:42:52 pl.edu.mimuw.weather.network.DataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 04-23-2018 21:42:52 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clouds', descr='overcast clouds', temp=15.85, pressure=1011.92, humidity=76.0, clouds=92.0, wind=Wind{degree=268.0, speed=5.48}}
+[INFO ] 04-23-2018 21:42:54 pl.edu.mimuw.weather.AppMain onSettingsRequested - onSettingsRequested
+[INFO ] 04-23-2018 21:43:00 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='shortdesc', descr='', temp=14.4, pressure=998.0, humidity=95.5, clouds=-1.0, wind=Wind{degree=315.0, speed=2.4}}
+[ERROR] 04-23-2018 21:43:01 pl.edu.mimuw.weather.network.DataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 04-23-2018 21:43:03 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 04-23-2018 21:43:04 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...
+[INFO ] 04-23-2018 21:43:14 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clouds', descr='overcast clouds', temp=15.85, pressure=1011.92, humidity=76.0, clouds=92.0, wind=Wind{degree=268.0, speed=5.48}}
+[ERROR] 04-23-2018 21:43:14 pl.edu.mimuw.weather.network.DataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 04-23-2018 21:43:18 pl.edu.mimuw.weather.AppMain onSettingsRequested - onSettingsRequested
+[ERROR] 04-23-2018 21:43:23 pl.edu.mimuw.weather.network.DataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 04-23-2018 21:43:23 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='shortdesc', descr='', temp=14.4, pressure=998.0, humidity=95.4, clouds=-1.0, wind=Wind{degree=315.0, speed=3.3}}
+[INFO ] 04-23-2018 21:43:25 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 04-23-2018 21:43:26 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...
+[INFO ] 04-23-2018 21:43:36 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clouds', descr='overcast clouds', temp=15.85, pressure=1011.92, humidity=76.0, clouds=92.0, wind=Wind{degree=268.0, speed=5.48}}
+[ERROR] 04-23-2018 21:43:36 pl.edu.mimuw.weather.network.DataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 04-23-2018 21:43:41 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 04-23-2018 21:43:42 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...

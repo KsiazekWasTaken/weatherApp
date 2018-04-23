@@ -1,0 +1,187 @@
+* {
+    -fx-base-color: TRANSPARENT/*rgb(31.0, 31.0, 31.0)*/;
+    -fx-red-color:  rgb(232.0, 17.0, 35.0);
+}
+
+#main {
+    -fx-background-color: TRANSPARENT/*rgba(31.0, 31.0, 31.0);*/
+}
+
+#topToolbar, #statusContainer {
+    -fx-padding: 3.0 5.0 3.0 5.0;
+    -fx-background-color: rgb(31.0, 31.0, 31.0);
+}
+
+#statusContainer {
+    -fx-alignment: CENTER_LEFT;
+    -fx-spacing: 10.0px;
+}
+
+#statusContainer FontIcon, #statusContainer SpinningFontIcon {
+    -fx-icon-size: 16.0px;
+    -fx-icon-color: WHITE;
+}
+
+#errorIcon {
+    -fx-icon-color: -fx-red-color;
+}
+
+#statusContainer JFXButton {
+    -fx-padding: 0.0;
+}
+
+#ratesGrid {
+    -fx-padding: 10.0px;
+    -fx-vgap: 5.0px;
+    -fx-hgap: 5.0px;
+}
+
+.rate {
+    -fx-background-color: rgba(255.0, 255.0, 255.0, 0.8);
+
+}
+
+.rate-icon-container {
+    -fx-background-color: rgba(255.0, 255.0, 255.0, 0.95);
+    -fx-pref-width: 80.0px;
+    -fx-max-width: 80.0px;
+}
+
+.rate-icon-container2 {
+
+    -fx-icon-color: WHITE;
+}
+
+.rate-icon {
+    -fx-icon-size: 32.0px;
+    -fx-icon-color: -fx-base-color;
+}
+
+#gold-icon {
+    -fx-max-width: 40.0px;
+    -fx-max-height: 32.0px;
+    -fx-background-color: -fx-base-color;
+}
+
+
+.value-container {
+     /*-fx-alignment: BASELINE_LEFT;*/
+     -fx-spacing: 4.0;
+ }
+
+.temp-container {
+    /*-fx-alignment: BASELINE_LEFT;*/
+    -fx-spacing: 4.0;
+}
+
+.rate-value {
+    -fx-font-size: 15.0;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-fill: DARKGRAY;
+    -fx-padding: 0.0;
+    /*-fx-alignment: baseline-left;*/
+}
+
+.title-value {
+    -fx-font-size: 20.0;
+    -fx-font-weight: bold;
+    -fx-fill: GRAY;
+    -fx-padding: 0.0;
+    /*-fx-alignment: baseline-left;*/
+}
+
+.small-timestamp {
+    -fx-font-size: 9.0;
+    -fx-fill: GRAY;
+}
+
+.temp-value {
+    -fx-font-size: 42.0;
+    -fx-font-weight: bold;
+    -fx-fill: rgb(255, 188, 20);
+    -fx-padding: 0.0;
+}
+
+.no-data {
+    -fx-icon-size: 24.0px;
+    -fx-icon-color: GRAY;
+    /*-fx-alignment: baseline-left;*/
+}
+
+.myStyle {
+    -fx-icon-size: 70.0px;
+    -fx-icon-color: GRAY;
+}
+
+.myStyleNight {
+    -fx-icon-size: 70.0px;
+    -fx-icon-color: WHITE;
+    -fx-background-color: rgb(35,35,35);
+}
+
+.myStyle2 {
+    -fx-icon-size: 30.0px;
+    -fx-icon-color: rgb(255, 188, 20);
+}
+
+.helper-label {
+    -fx-fill: GRAY;
+    -fx-font-weight: bold;
+    -fx-font-size: 10.0;
+}
+
+.C-label {
+    -fx-fill: GRAY;
+    -fx-font-weight: bold;
+    -fx-font-size: 32.0;
+}
+
+
+.chevron-up, .chevron-down {
+    -fx-icon-size: 14.0;
+}
+
+.chevron-up {
+    -fx-icon-color: -green-700;
+}
+
+.chevron-down {
+    -fx-icon-color: -fx-red-color;
+}
+
+.tooltip Text {
+    -fx-fill: WHITE;
+    -fx-font-size: 14.0;
+}
+
+.tooltip FontIcon {
+    -fx-icon-color: WHITE;
+    -fx-icon-size: 16.0;
+}
+
+.tooltip HBox {
+    -fx-spacing: 5.0px;
+    -fx-alignment: BASELINE_LEFT;
+}
+
+.tooltip VBox {
+    -fx-spacing: 5.0px;
+}
+
+.chart-series-area-line {
+    -fx-stroke-width: 3.0px;
+}
+
+.default-color0.chart-series-area-line {
+    -fx-stroke: #03A9F4;
+}
+
+.default-color0.chart-series-area-fill {
+    -fx-fill: rgba(3.0, 169.0, 244.0, 0.15);
+}
+
+
+.default-color0.chart-area-symbol {
+    -fx-background-color: #03A9F4, WHITE;
+}

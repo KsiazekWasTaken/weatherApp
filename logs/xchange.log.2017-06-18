@@ -1,0 +1,98 @@
+[INFO ] 06-18-2017 00:08:34 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=15.0, pressure=1017.0, humidity=87.0, clouds=0.0, wind=Wind{degree=320.0, speed=3.6}}
+[INFO ] 06-18-2017 00:09:33 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=15.0, pressure=1017.0, humidity=87.0, clouds=0.0, wind=Wind{degree=320.0, speed=3.6}}
+[INFO ] 06-18-2017 00:10:33 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=15.0, pressure=1017.0, humidity=87.0, clouds=0.0, wind=Wind{degree=320.0, speed=3.6}}
+[INFO ] 06-18-2017 00:11:33 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=15.0, pressure=1017.0, humidity=87.0, clouds=0.0, wind=Wind{degree=320.0, speed=3.6}}
+[INFO ] 06-18-2017 00:12:33 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=15.0, pressure=1017.0, humidity=87.0, clouds=0.0, wind=Wind{degree=320.0, speed=3.6}}
+[INFO ] 06-18-2017 00:13:33 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=15.0, pressure=1017.0, humidity=87.0, clouds=0.0, wind=Wind{degree=320.0, speed=3.6}}
+[INFO ] 06-18-2017 00:14:33 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=15.0, pressure=1017.0, humidity=87.0, clouds=0.0, wind=Wind{degree=320.0, speed=3.6}}
+[INFO ] 06-18-2017 00:15:33 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=15.0, pressure=1017.0, humidity=87.0, clouds=0.0, wind=Wind{degree=320.0, speed=3.6}}
+[INFO ] 06-18-2017 00:16:33 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=15.0, pressure=1017.0, humidity=87.0, clouds=0.0, wind=Wind{degree=320.0, speed=3.6}}
+[INFO ] 06-18-2017 00:17:33 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=15.0, pressure=1017.0, humidity=87.0, clouds=0.0, wind=Wind{degree=320.0, speed=3.6}}
+[INFO ] 06-18-2017 13:05:40 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:05:55 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 06-18-2017 13:05:56 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...
+[INFO ] 06-18-2017 13:06:08 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:06:10 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 06-18-2017 13:06:12 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...
+[INFO ] 06-18-2017 13:06:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:06:37 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 06-18-2017 13:06:38 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...
+[INFO ] 06-18-2017 13:06:51 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:07:07 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:07:50 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:08:07 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:08:50 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:09:07 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:09:25 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:09:47 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:09:50 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:10:07 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:10:25 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:10:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:10:47 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:10:50 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:11:07 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:11:09 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:11:25 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:11:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:11:47 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:11:50 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:12:07 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:12:09 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:12:25 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:12:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:12:47 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:12:50 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:13:07 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:13:09 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:13:25 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:13:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:13:47 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:13:55 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:14:09 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:14:21 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:14:42 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:15:00 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:15:12 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:15:31 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:15:45 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:15:58 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:16:07 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 06-18-2017 13:16:08 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...
+[INFO ] 06-18-2017 13:16:08 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 06-18-2017 13:16:09 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...
+[INFO ] 06-18-2017 13:16:12 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:16:31 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:17:12 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:17:31 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:18:12 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:18:31 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:18:55 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:18:57 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 06-18-2017 13:18:58 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...
+[INFO ] 06-18-2017 13:19:27 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:19:31 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 06-18-2017 13:19:32 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...
+[INFO ] 06-18-2017 13:21:39 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=23.0, pressure=1021.0, humidity=46.0, clouds=0.0, wind=Wind{degree=310.0, speed=4.6}}
+[INFO ] 06-18-2017 13:26:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:27:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:28:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:29:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:29:48 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:30:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:30:47 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:31:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:31:47 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:32:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:32:47 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:33:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:33:47 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:34:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:34:47 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:35:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:35:45 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:35:47 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:36:29 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:45:34 pl.edu.mimuw.weather.AppMain onNext - WeatherEvent{weather='Clear', descr='clear sky', temp=24.0, pressure=1021.0, humidity=50.0, clouds=0.0, wind=Wind{degree=280.0, speed=3.1}}
+[INFO ] 06-18-2017 13:45:39 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 06-18-2017 13:45:41 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exiting...
